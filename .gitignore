@@ -1,0 +1,60 @@
+# Environment / Secrets
+
+.env
+.env.*
+!.env.example
+
+
+# Node / Next.js
+
+node_modules/
+.next/
+out/
+.vercel/
+.turbo/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+*.tsbuildinfo
+
+
+# Go
+
+/bin/
+/build/
+/dist/
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+*.test
+*.out
+
+
+# Testing / Coverage
+
+coverage/
+
+
+# Logs
+
+*.log
+
+
+# IDE / Editors
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# macOS
+
+.DS_Store
